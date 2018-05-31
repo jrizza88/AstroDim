@@ -1,0 +1,15 @@
+  body {
+  font-family: 'Montserrat', sans-serif;
+ }
+
+ .astroMain, .singerMain{
+  text-indent: 50px;
+ }
+
+ .astroMain{
+  background-color: mediumpurple;
+ }
+
+ .singerMain{
+  background-color: red;
+ }
