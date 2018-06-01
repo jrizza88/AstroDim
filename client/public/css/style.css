@@ -2,14 +2,24 @@
   font-family: 'Montserrat', sans-serif;
  }
 
- .astroMain, .singerMain{
+ .navbar{
+  text-indent: 5px;
+  border-bottom: 1px solid black;
+ }
+
+ .biography{
   text-indent: 50px;
+ }
+
+ .astroMain, .musicMain{
+  text-indent: 50px;
+  height: 100vh;
  }
 
  .astroMain{
   background-color: mediumpurple;
  }
 
- .singerMain{
+ .musicMain{
   background-color: red;
  }
