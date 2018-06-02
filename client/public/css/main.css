@@ -3,6 +3,34 @@
  }
 
  .navbar{
+  width: 100%;
   text-indent: 5px;
   border-bottom: 1px solid black;
+ }
+
+ .aboutMeSection{
+
+ }
+
+ .aboutMe{
+  text-align: center;
+  text-indent: 50px;
+ }
+
+ .mainAstro{
+  float: left;
+  height: 140px;
+  width: 140px;
+ }
+
+ .bioSection{
+/*  text-indent: 5px;*/
+    margin-left: 100px;
+  margin-right: 100px;
+ }
+
+ .bioText{
+  text-decoration: bold;
+  font-size: 18px;
+  text-indent: 5px;
  }
