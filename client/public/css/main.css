@@ -73,6 +73,10 @@ a.btn{
   height: 44px;
   width: 50px;
 }
+
+a.btn .fa-etsy{
+  margin-top: 1px;
+}
  .btn-twitter{
   background: #55ACEE;
  }
