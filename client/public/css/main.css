@@ -28,6 +28,7 @@
 /*  text-indent: 5px;*/
     margin-left: 100px;
   margin-right: 100px;
+  padding-bottom: 1rem;
  }
 
  .bioText{
@@ -37,7 +38,49 @@
   margin-right: 200px;
  }
 
+/*FOOTER */
+
  .page-footer{
   border-top: 1px solid black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+/*  text-align: center;*/
+ }
+
+ .social-media{
+  display: inline;
+  padding: 0 10px;
+ }
+
+ .btn-social{
+  height: 45px;
+  width: 45px;
+}
+
+ .btn-social-icon{
+  height: 45px;
+  width: 45px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ }
+
+ ion-icon {
+  font-size: 24px;
+}
+
+ .btn-twitter{
+  background: #55ACEE;
+ }
+
+/* .fa-twitter:before{
+  content: "\f099";
+ }
+*/
+ .btn-instagram{
+
+ }
+
+ .footer-copyright{
   text-align: center;
  }

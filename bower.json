@@ -1,0 +1,26 @@
+{
+  "name": "astroDim",
+  "homepage": "https://github.com/jrizza88/AstroDim",
+  "authors": [
+    "jrizza88 <jetorres88@gmail.com>"
+  ],
+  "description": "Astrology, music and portfolio based site for Ms. AstroDim",
+  "main": "index.html",
+  "keywords": [
+    "astrology",
+    "music",
+    "biography"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-social": "^5.1.1"
+  }
+}
