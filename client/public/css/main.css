@@ -1,5 +1,7 @@
  body {
   font-family: 'Montserrat', sans-serif;
+  background: #414A4C;
+  color: white;
  }
 
  .navbar{
@@ -17,7 +19,7 @@
   text-indent: 50px;
  }
 
- .mainAstro{
+ .mainPage{
   float: left;
   height: 140px;
   width: 140px;
@@ -38,12 +40,36 @@
   margin-right: 200px;
  }
 
+ /*Main section*/
+ .mainSection{
+  text-align: center;
+ text-indent: 50px;
+/*  height: 100vh;*/
+ }
+
+/*  .astroMain, .musicMain{
+  text-indent: 50px;
+  height: 100vh;
+ }*/
+
+ .astroMain{
+  background-color: #213635;
+  border: 2px solid black;
+ }
+
+ .musicMain{
+  background-color: #213635;
+  border: 2px solid black;
+ }
+
  /*Astrology side */
  .pics{
   opacity: 0.7;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 500px;
+  width: 500px;
  }
 
  p astroParagraph {
@@ -91,6 +117,7 @@ a.btn{
 a.btn .fa-etsy{
   margin-top: 1px;
 }
+
  .btn-twitter{
   background: #55ACEE;
  }
