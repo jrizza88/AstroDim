@@ -1,11 +1,95 @@
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  /* font-family: 'Titillium Web', sans-serif; */
+}
+
+h1, h2, h3, h4, h5 {
+  /* font-family: 'Bangers', cursive; */
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+ 
+ /* my code */
+
  body {
   font-family: 'Montserrat', sans-serif;
   background: #414A4C;
   color: white;
  }
 
+ .container{
+   width: 100%;
+   max-width: 1000px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   margin: 0 auto;
+ }
+
+ header{
+   width: 100%;
+   margin: 0 auto;
+ }
+
  .navbar{
+  display: flex; 
+  flex-wrap: nowrap;
+  flex-direction: row;
   width: 100%;
+  margin: 5px;
   text-indent: 5px;
   border-bottom: 1px solid black;
  }
@@ -28,7 +112,11 @@
 
  .bioSection{
 /*  text-indent: 5px;*/
-    margin-left: 100px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+  margin-left: 100px;
   margin-right: 100px;
   padding-bottom: 1rem;
  }
@@ -42,15 +130,25 @@
 
  /*Main section*/
  .mainSection{
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  /* flex: nowrap; */
+  flex-wrap: nowrap;
+  width: 100%;
+  /* justify-content: center; */
+ text-align: center;
  text-indent: 50px;
 /*  height: 100vh;*/
  }
 
-/*  .astroMain, .musicMain{
-  text-indent: 50px;
-  height: 100vh;
- }*/
+ .astroMain, .musicMain{
+  /* text-indent: 50px;
+  height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 50%;
+ }
 
  .astroMain{
   background-color: #213635;
@@ -65,15 +163,20 @@
  /*Astrology side */
  .pics{
   opacity: 0.7;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 500px;
-  width: 500px;
+  display: flex;
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  height: 90%;
+  width: 100%;
  }
 
- p astroParagraph {
+ p .astroParagraph {
   float: left;
+ }
+
+ .astroParagraph, .musicParagraph{
+   padding: 3%;
  }
 
   /*Music side */
@@ -81,6 +184,7 @@
 /*FOOTER */
 
  .page-footer{
+  width: 100%;
   border-top: 1px solid black;
 /*  padding-top: 1rem;*/
   padding-bottom: 1rem;
