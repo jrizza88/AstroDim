@@ -4,4 +4,7 @@
 
  .navbar{
   text-indent: 5px;
+  display: flex;
+  
  }
+
