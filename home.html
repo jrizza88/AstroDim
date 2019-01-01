@@ -17,40 +17,42 @@
   <!-- Font of choice -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" href="./client/public/css/main.css">
+  <link rel="stylesheet" type="text/css" href="./client/public/css/index.css">
       <script type="text/javascript" src="./client/public/js/script.js"></script>
 </head>
 <body>
-<div class="container">
-  <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-     <a class="navbar-brand" id="astroHome" href="#">AstroDim</a>
-    </nav>
-  </header>
-   <!--   insert image source here -->
-  <section class="aboutMeSection row">
-    <div class="aboutMe col-lg-12">
-        <h1> About Me </h1>
-    </div>
+  <section class="upperSection">
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" id="astroHome" href="#">AstroDim</a>
+      </nav>
+    </header>
+    <!--   insert image source here -->
+    <section class="aboutMeSection row">
+      <div class="aboutMe col-lg-12">
+          <h1> About Me </h1>
+      </div>
+    </section>
+      <div class="row">
+          <section class="bioSection col-lg-12">
+            <img src="./client/public/images/mainBioPhoto.png" class="mainPage" alt="dimmiBio" title="astroDimBioPhoto">
+              <p class="bioText">
+                  Welcome to Astro Dim! I am an amazing woman who focuses on Astrology and Music as my main expertise. Below you can click on the astrology or music section. 
+            </p>
+          </section>
+      </div>
   </section>
-    <div class="row">
-        <section class="bioSection col-lg-12">
-          <img src="./client/public/images/mainBioPhoto.png" class="mainPage" alt="dimmiBio" title="astroDimBioPhoto">
-            <p class="bioText">
-                Welcome to Astro Dim! I am an amazing woman who focuses on Astrology and Music as my main expertise. Below you can click on the astrology or music section. 
-          </p>
-        </section>
-    </div>
+<div class="container">
    <div class="row">
     <section class="mainSection">
         <section class="astroMain col-md-6">
           <p class="astroParagraph">Everything Astrology</p>
-          <a href="./client/public/astrology.html"><img src="./client/public/images/astroAstrology.png" class="pics"></a>
+          <a href="./client/public/astrology/astrology.html"><img src="./client/public/images/astroAstrology.png" class="pics"></a>
         </section>
       
         <section class="musicMain col-md-6">
           <p class="musicParagraph">  Everything Music</p>
-          <a href="./client/public/music.html"><img src="./client/public/images/astroMusicPic.png"  class="pics"></a>
+          <a href="./client/public/music/music.html"><img src="./client/public/images/astroMusicPic.png"  class="pics" id="musicPic"></a>
         </section>
       </section>
   </div>

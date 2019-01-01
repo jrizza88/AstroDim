@@ -66,17 +66,25 @@ h1, h2, h3, h4, h5 {
 
  body {
   font-family: 'Montserrat', sans-serif;
-  background: #414A4C;
-  color: white;
+  // background: #414A4C;
+  color: black;
  }
 
  .container{
    width: 100%;
-   max-width: 1200px;
+   max-width: 1700px;
  /*  display: flex;*/
    flex-wrap: wrap;
    flex-direction: row;
    margin: 0 auto;
+ }
+
+ .upperSection{
+   display: flex;
+   background-image: url('../images/milkway2.jpeg');
+   height: 45vh;
+   margin-bottom: 1%;
+   flex-direction: column;
  }
 
  header{
@@ -91,7 +99,7 @@ h1, h2, h3, h4, h5 {
   width: 100%;
   margin: 5px;
   text-indent: 5px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #8e73bd;
  }
 
  .aboutMeSection{
@@ -99,6 +107,7 @@ h1, h2, h3, h4, h5 {
  }
 
  .aboutMe{
+  display: flex;
   text-align: center;
   text-indent: 50px;
  }
@@ -126,11 +135,13 @@ width: 80%;
   text-decoration: bold;
   font-size: 18px;
   margin-left: 5px;
+  color: white;
 /*  margin-right: 200px;*/
  }
 
  /*Main section*/
  .mainSection{
+  background-color: url(../images/milkyway.jpeg);
   display: flex;
   flex-direction: row;
   /* flex: nowrap; */
@@ -139,12 +150,12 @@ width: 80%;
   /* justify-content: center; */
  text-align: center;
  text-indent: 50px;
-/*  height: 100vh;*/
+ height: 75vh;
  }
 
  .astroMain, .musicMain{
-  /* text-indent: 50px;
-  height: 100vh; */
+  /* text-indent: 50px; */
+  height: 69vh; 
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -152,25 +163,32 @@ width: 80%;
  }
 
  .astroMain{
-  background-color: #213635;
+  // background-color: #213635;
+  // background-color: url(../images/milkyway.jpeg);
   border: 2px solid black;
  }
 
  .musicMain{
-  background-color: #213635;
+  // background-color: #213635;
   border: 2px solid black;
  }
 
- /*Astrology side */
  .pics{
   opacity: 0.7;
   display: flex;
   /* display: block; */
   /* margin-left: auto;
   margin-right: auto; */
-  height: 90%;
+  height: 600px;
   width: 100%;
  }
+
+//  #musicPic{
+//   //  height: 610px;
+//   height: 616px;
+//  }
+
+ /*Astrology side */
 
  p .astroParagraph {
   float: left;
@@ -185,7 +203,9 @@ width: 80%;
 /*FOOTER */
 
  .page-footer{
+  display: flex;
   width: 100%;
+  margin-top: 1rem;
   border-top: 1px solid black;
 /*  padding-top: 1rem;*/
   padding-bottom: 1rem;
